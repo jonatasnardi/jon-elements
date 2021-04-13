@@ -22,5 +22,11 @@
   "exclude": [
     "src/test.ts",
     "**/*.spec.ts"
+  ],
+  "@jonatasnardi/components": [
+    "dist/components"
+  ],
+  "@jonatasnardi/components/*": [
+    "dist/components/*"
   ]
 }
